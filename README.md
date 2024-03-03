@@ -1,5 +1,5 @@
 # Groq 
-(I am not sponsored by Grog.  I just love their product - Gregory)
+I am not sponsored by Grog.  I just love their product - Gregory Kennedy
 
 - https://groq.com/
 
