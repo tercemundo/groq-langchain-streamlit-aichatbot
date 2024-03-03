@@ -15,7 +15,7 @@ For the apps code to run on Github Codespaces I created two new folders and two 
 
 One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
 
-# Here are the beginner friendly steps for you to get up and running for free in the cloud. 
+## Here are the beginner friendly steps for you to get up and running for free in the cloud. 
 
 - Create or Login to your https://github.com/ account.
 
@@ -66,4 +66,4 @@ This repository contains a Streamlit application that allows users to interact w
 
 - **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
 
-## betterongroq
+# betterongroq
