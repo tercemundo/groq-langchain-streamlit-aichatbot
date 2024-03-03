@@ -48,13 +48,7 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
     
 - Click on the small browsers windows FULL SCRENN ICON, which wukk open a full browser window and you are ready to begin using Groq, Langchain and Streamlit!  
 
-I Love Github Codespaces, Groq and Streamlit!  Amazing Products...Enjoy
-
-(WILL REPLACE THIS) (https://www.youtube.com/watch?v=Hc79sDi3f0U "Original")    // Video Link
-
-(WILL REPLACE THIS) ![1 groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/0a6f2bac-ba17-429b-b773-dc0561df776f)
-
-#
+                I Love Github Codespaces, Groq and Streamlit!  Amazing Products...Enjoy
 
 # Groq LangChain Conversational Chatbot
 
