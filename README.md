@@ -6,10 +6,12 @@ For the apps code to run on Github Codespaces I created two new folders and two 
 
 One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
 
-Groq
-https://groq.com/
-https://console.groq.com/login
-https://wow.groq.com/groq-labs/
+# Groq
+- https://groq.com/
+
+- https://console.groq.com/login
+
+- https://wow.groq.com/groq-labs/
 
 # Here are the beginner friendly steps for you to get up and running for free in the cloud. 
 
