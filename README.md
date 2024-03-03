@@ -2,7 +2,7 @@
 
 I updated the original code (worked perfectly locally) that I forked from the cool dev at https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  
 
-# For the apps code to run on Github Codespaces I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
+For the apps code to run on Github Codespaces I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
 
 # Here are the beginner friendly steps for you to get up and running in your own Github Codespaces 
 
