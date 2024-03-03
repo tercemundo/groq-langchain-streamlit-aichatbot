@@ -42,7 +42,9 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
 - In your Terminal Window of your Codespaces Visual Studio Code Editor Type the following command and press enter: export GROQ_API_KEY=paste-your-groq-api-key-here
 
-- EXAMPLE: GROQ_API_KEY=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 - GET YOUR FREE API KEY HERE: https://console.groq.com/login 
+- API KEY EXAMPLE: GROQ_API_KEY=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 - GET YOUR FREE API KEY HERE: https://console.groq.com/login
+
+- NOTE THE API KEY ABOVE WILL NOT WORK FOR YOU AS I HAVE REVOKED IT.  NEVER REVEAL YOUR API KEY TO ANYONE!
     
 - Click on the small browsers windows FULL SCRENN ICON, which wukk open a full browser window and you are ready to begin using Groq, Langchain and Streamlit!  
 
