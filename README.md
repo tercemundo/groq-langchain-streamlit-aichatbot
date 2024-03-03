@@ -1,5 +1,19 @@
-# March 3rd Update!  
-I updated the code from the original code https://github.com/definitive-io/conversational-chatbot-groq that I forked from the cool dev https://github.com/definitive-io/.  The code ran perfectly locally however it would not run when you selected the "CODE" "RUN IN CODESPACES" Green button.  ue to a fix a Running in Codespaces error.  The original code is intended to run Groq and the Streamlit front end on your local computer.  
+# March 3rd Update! for a "One-Click Installation and Set Up of Groq and Streamlit on Github Codespaces" 
+
+I updated the original code (worked perfectly locally) that I forked from the cool dev at https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  In order for the apps code to run on Github Codespaces I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
+
+Here are the beginner friendly steps for you to get up and running in your own Github Codespaces 
+1.  Create or Login to your https://github.com/ account.  
+
+2.  Right click on your mouse and COPY repo:themindfuldude/groq-langchain-aichatbot
+
+3.  Next go to the top right of your Github Repository and PASTE repo:themindfuldude/groq-langchain-aichatbot in the Type / to search box.  Press Enter on your keyboard and You will now see the repo:themindfuldude/groq-langchain-aichatbot as a selection choice.  Click on the Repository link which will take you to my groq-langchain-aichatbot repository (while still keeping you siged in to yours-You should see your profile image if you added one on the top right corner of the page) .
+ 
+4.  Go to the top right and click on the button that says "Fork" and then click on/select the + Create a new fork which will open up a new window in your Github repository. 
+
+5.  Give your repository a name or keep the name that is already there, and then click save.  Now you are ready to rock.
+
+I Love Github Codespaces, Groq and Streamlit!  Amazing Products... 
 
 ![1 groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/0a6f2bac-ba17-429b-b773-dc0561df776f)
 
