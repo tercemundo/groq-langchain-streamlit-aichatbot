@@ -46,7 +46,9 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
                export GROQ_API_KEY=paste-your-groq-api-key-here
 
-- API KEY EXAMPLE: GROQ_API_KEY=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 - GET YOUR FREE API KEY HERE: https://console.groq.com/login
+- API KEY EXAMPLE IS BELOW: GET YOUR FREE API KEY HERE: https://console.groq.com/login
+
+               export GROQ_API_KEY=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
 
 - NOTE THE API KEY ABOVE WILL NOT WORK FOR YOU AS I HAVE REVOKED IT.  NEVER REVEAL YOUR API KEY TO ANYONE!
     
