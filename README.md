@@ -10,13 +10,25 @@ For the apps code to run on Github Codespaces I created two new folders and two 
 
 2.  Right click on your mouse and COPY repo:themindfuldude/groq-langchain-aichatbot
 
-3.  Next go to the top right of your Github Repository and PASTE repo:themindfuldude/groq-langchain-aichatbot in the Type / to search box.  Press Enter on your keyboard and You will now see the repo:themindfuldude/groq-langchain-aichatbot as a selection choice.  Click on the Repository link which will take you to my groq-langchain-aichatbot repository (while still keeping you siged in to yours-You should see your profile image if you added one on the top right corner of the page) .
+3.  Next go to the top right of your Github Repository and PASTE repo:themindfuldude/groq-langchain-aichatbot in the Type / to search box.
+  
+4.  Press Enter on your keyboard and You will now see the repo:themindfuldude/groq-langchain-aichatbot as a selection choice.
+   
+5.  Click on the Repository link which will take you to my groq-langchain-aichatbot repository (while still keeping you siged in to yours-You should see your profile image if you added one on the top right corner of the page) .
  
-4.  Go to the top right and click on the button that says "Fork" and then click on/select the + Create a new fork which will open up a new window in your Github repository. 
+7.  Go to the top right and click on the button that says "Fork" and then click on/select the + Create a new fork which will open up a new window in your Github repository. 
 
-5.  Give your repository a name or keep the name that is already there, and then click save.  Now you are ready to rock.
+8.  Give your repository a name or keep the name that is already there, and then click save.  You are ready to Launch and Test  Groq and Streamlit and Github Codespaces.
+   
+9.  Go to the (near) Top right and click on the GREEN BUTTON that says CODE and select Codespaces.  This will lanuch your Github Codespaces Visual Studio Code Editor window and your free Codespaces server.
+    
+10. In your Terminal Window of your Codespaces Visual Studio Code Editor Type the following command and press enter: streamlit run app.py
 
-I Love Github Codespaces, Groq and Streamlit!  Amazing Products... 
+11. A small browser Window will open on the top right side of your Codespaces Visual Studio Code Editor.
+    
+12. Click on the small browsers Launch in Your Browser Button and you are ready to begin using Groq!  
+
+I Love Github Codespaces, Groq and Streamlit!  Amazing Products...Enjoy
 
 ![1 groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/0a6f2bac-ba17-429b-b773-dc0561df776f)
 
