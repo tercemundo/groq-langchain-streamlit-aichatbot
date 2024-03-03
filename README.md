@@ -1,3 +1,11 @@
+# Groq (I am not sponsored by Grog.  I just love their product - Gregory)
+
+- https://groq.com/
+
+- https://console.groq.com/login
+
+- https://wow.groq.com/groq-labs/
+
 # March 3rd Update! "One-Click Installation and Set Up of Groq and Streamlit on Github Codespaces" 
 
 I updated the original code (worked perfectly locally) that I forked from the cool dev at https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  
@@ -5,13 +13,6 @@ I updated the original code (worked perfectly locally) that I forked from the co
 For the apps code to run on Github Codespaces I created two new folders and two new files.  
 
 One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
-
-# Groq
-- https://groq.com/
-
-- https://console.groq.com/login
-
-- https://wow.groq.com/groq-labs/
 
 # Here are the beginner friendly steps for you to get up and running for free in the cloud. 
 
