@@ -41,15 +41,11 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
 I Love Github Codespaces, Groq and Streamlit!  Amazing Products...Enjoy
 
-
-
+(WILL REPLACE THIS) (https://www.youtube.com/watch?v=Hc79sDi3f0U "Original")    // Video Link
 
 (WILL REPLACE THIS) ![1 groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/0a6f2bac-ba17-429b-b773-dc0561df776f)
 
-
-(WILL REPLACE THIS) (https://www.youtube.com/watch?v=Hc79sDi3f0U "Original")    // Video Link
-
-
+#
 
 # Groq LangChain Conversational Chatbot
 
