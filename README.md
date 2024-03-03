@@ -24,7 +24,7 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
 
 
-- Select/click on the Copy text icon on the top right of the text box below
+- Select/click on the Copy text icon on the right side of the text box below
 
               repo:themindfuldude/groq-langchain-aichatbot
 
