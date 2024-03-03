@@ -1,4 +1,5 @@
-# Groq (I am not sponsored by Grog.  I just love their product - Gregory)
+# Groq 
+(I am not sponsored by Grog.  I just love their product - Gregory)
 
 - https://groq.com/
 
