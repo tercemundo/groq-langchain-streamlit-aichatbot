@@ -24,7 +24,9 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
 
 
-- Right click on your mouse and COPY repo:themindfuldude/groq-langchain-aichatbot
+- Right click on your mouse and COPY
+
+              repo:themindfuldude/groq-langchain-aichatbot
 
 - Next go to the top right of your Github Repository and PASTE repo:themindfuldude/groq-langchain-aichatbot in the Type / to search box.
   
@@ -40,7 +42,9 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
 - A small browser Window will open on the top right side of your Codespaces Visual Studio Code Editor.
 
-- In your Terminal Window of your Codespaces Visual Studio Code Editor Type the following command and press enter: export GROQ_API_KEY=paste-your-groq-api-key-here
+- In your Terminal Window of your Codespaces Visual Studio Code Editor Type the command below and press enter:
+
+               export GROQ_API_KEY=paste-your-groq-api-key-here
 
 - API KEY EXAMPLE: GROQ_API_KEY=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 - GET YOUR FREE API KEY HERE: https://console.groq.com/login
 
