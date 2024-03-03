@@ -54,7 +54,7 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
     
 - Click on the small browsers windows FULL SCRENN ICON, which wull open a full browser window and you are ready to begin using Groq, Langchain and Streamlit!  
 
-# Groq LangChain Conversational Chatbot
+# Groq-LangChain-Streamlit AI Chatbot
 
 This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
 
@@ -66,16 +66,4 @@ This repository contains a Streamlit application that allows users to interact w
 
 - **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
 
-## Usage
-
-To use this application, you need to have Streamlit and the other required Python libraries installed. You also need to have a Groq API key, which you can obtain by signing up on the Groq website.
-
-Once you have the necessary requirements, you can run the application by executing the script with Streamlit:
-
-```shell
-streamlit run app.py
-```
-
-This will start the Streamlit server and open the application in your web browser. You can then interact with the chatbot, and the application will generate responses based on the history of the conversation.
-
-#betterongroq
+## betterongroq
