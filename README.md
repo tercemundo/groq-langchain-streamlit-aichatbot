@@ -1,5 +1,5 @@
-# Groq 
-I am not sponsored by Grog.  I just love their product - Gregory Kennedy
+# Groq - Langchain - Streamlit
+I am not sponsored by Github - Grog, Langchain or Streamlist.  I just love their products - Gregory Kennedy
 
 - https://groq.com/
 
@@ -53,8 +53,6 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 - NOTE THE API KEY ABOVE WILL NOT WORK FOR YOU AS I HAVE REVOKED IT.  NEVER REVEAL YOUR API KEY TO ANYONE!
     
 - Click on the small browsers windows FULL SCRENN ICON, which wull open a full browser window and you are ready to begin using Groq, Langchain and Streamlit!  
-
-                I Love Github Codespaces, Groq and Streamlit!  Amazing Products...Enjoy
 
 # Groq LangChain Conversational Chatbot
 
