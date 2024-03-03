@@ -38,11 +38,13 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
    
 - Go to the (near) Top right and click on the GREEN BUTTON that says CODE and select Codespaces.  This will lanuch your Github Codespaces Visual Studio Code Editor window and your free Codespaces server.
 
-- In your Terminal Window of your Codespaces Visual Studio Code Editor Type the following command and press enter: streamlit run app.py
-
 - A small browser Window will open on the top right side of your Codespaces Visual Studio Code Editor.
+
+- In your Terminal Window of your Codespaces Visual Studio Code Editor Type the following command and press enter: export GROQ_API_KEY=paste-your-groq-api-key-here
+
+- EXAMPLE: GROQ_API_KEY=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 - GET YOUR FREE API KEY HERE: https://console.groq.com/login 
     
-- Click on the small browsers Launch in Your Browser Button and you are ready to begin using Groq!  
+- Click on the small browsers windows FULL SCRENN ICON, which wukk open a full browser window and you are ready to begin using Groq, Langchain and Streamlit!  
 
 I Love Github Codespaces, Groq and Streamlit!  Amazing Products...Enjoy
 
