@@ -1,4 +1,4 @@
-# March 3rd Update! for a "One-Click Installation and Set Up of Groq and Streamlit on Github Codespaces" 
+# March 3rd Update! "One-Click Installation and Set Up of Groq and Streamlit on Github Codespaces" 
 
 I updated the original code (worked perfectly locally) that I forked from the cool dev at https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  
 
