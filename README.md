@@ -20,9 +20,9 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 - Create or Login to your https://github.com/ account.
 
 
-![1_groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/4dfe7d4c-18f1-468f-bbab-294ecc2fa56f)
+![1_groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/91226ca2-2394-4bfd-9c5c-0027edb6c3d4)
 
-  
+
 
 - Right click on your mouse and COPY repo:themindfuldude/groq-langchain-aichatbot
 
