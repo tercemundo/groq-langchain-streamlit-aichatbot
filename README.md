@@ -1,5 +1,5 @@
 # Groq - Langchain - Streamlit
-I am not sponsored by Github. Grog, Langchain or Streamlist.  I just love their products - Gregory Kennedy
+I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their products - Gregory Kennedy
 
 - https://groq.com/
 
