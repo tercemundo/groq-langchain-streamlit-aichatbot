@@ -3,7 +3,7 @@ I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their 
 
 - https://groq.com/
 
-- https://console.groq.com/login
+- https://console.groq.com/login - Get Your Free Groq API Key
 
 - https://wow.groq.com/groq-labs/
 
