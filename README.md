@@ -1,4 +1,4 @@
-# Groq - Langchain - Streamlit
+# Groq - Langchain - Streamlit AI APP
 I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their products - Gregory Kennedy
 
 - https://groq.com/
