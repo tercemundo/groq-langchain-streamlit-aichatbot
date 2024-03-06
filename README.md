@@ -1,11 +1,12 @@
-# Groq - Langchain - Streamlit AI APP
+# Groq - Langchain - Streamlit AI Chatbot APP
 I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their products - Gregory Kennedy
 
 - https://groq.com/
 
-- https://console.groq.com/login - Get Your Free Groq API Key
+- https://console.groq.com/login - Get Your Free Groq API Key Here
 
 - https://wow.groq.com/groq-labs/
+
 
 ## March 4th,2024 Update! "One-Click Installation and Set Up of Groq, Langchain and Streamlit on Github Codespaces" 
 
@@ -65,5 +66,3 @@ This repository contains a Streamlit application that allows users to interact w
 - **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
 
 - **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
-
-# betterongroq
