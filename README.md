@@ -24,7 +24,7 @@ One folder is named .devcontainer and contains a devcontainer.json file and the 
 
 ![1_groq conversational chatbot](https://github.com/themindfuldude/groq-langchain-aichatbot/assets/130063458/91226ca2-2394-4bfd-9c5c-0027edb6c3d4)
 
-
+##
 
 - Select/click on the Copy text icon on the right side of the text box below
 
