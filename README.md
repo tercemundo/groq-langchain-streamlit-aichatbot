@@ -8,7 +8,7 @@ I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their 
 - https://wow.groq.com/groq-labs/
 
 
-## March 4th,2024 Update! "One-Click Installation and Set Up of Groq API, Langchain and Streamlit on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models.  Mistral 8x7B or LLama2 by Meta. 
+## March 2024 Update! "One-Click Installation and Set Up of Groq API, Langchain and Streamlit on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models.  Mistral 8x7B or LLama2 by Meta. 
 
 I updated the original code (worked perfectly locally) that I forked from the cool dev at https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  
 
