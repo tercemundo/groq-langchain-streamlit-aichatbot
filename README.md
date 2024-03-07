@@ -1,11 +1,30 @@
 # Groq - Langchain - Streamlit AI Chatbot APP
 I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their incredible products - Gregory Kennedy
 
+## About Groq
+
+Groq® is a generative AI solutions company and the creator of the LPU™ Inference Engine, the fastest language processing accelerator on the market. It is architected from the ground up to achieve low latency, energy-efficient, and repeatable inference performance at 10x scale. Customers rely on the LPU Inference Engine as an end-to-end solution for running Large Language Models (LLMs) and other generative AI applications at 10x the speed. The LPU Inference Engine is available via the GroqCloud, an API that enables customers to purchase Tokens-as-a-Service for experimentation and production-ready applications. Jonathan Ross, inventor of the Google Tensor Processing Unit (TPU), founded Groq to preserve human agency while building the AI economy
+
 - https://groq.com/
 
 - https://console.groq.com/login - Get Your Free Groq API Key Here
 
 - https://wow.groq.com/groq-labs/
+
+## Mistral AI
+Mixtral-8x7B-32768 MOE (Mixture of Experts)
+https://mistral.ai/news/mixtral-of-experts/
+https://mistral.ai/technology/#models
+
+## Llama 2 70 
+LLama2-70b-4096
+https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+
+## Langchain
+- https://www.langchain.com/
+
+## Streamlit
+- https://streamlit.io/
 
 
 ## March 2024 Update! "One-Click Installation and Set Up of Groq API, Langchain and Streamlit on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models notably the Mixtral-8x7B-32768 MOE (Mixture of Experts) model  or the LLama2-70b-4096 model by Meta. 
