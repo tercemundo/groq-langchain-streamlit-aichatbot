@@ -1,18 +1,30 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/python-3
 {
+	// Specifies the Docker image to use for the dev container
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
 	"customizations": {
+		// Customizations specific to GitHub Codespaces
 		"codespaces": {
+			// Automatically open README.md when the container starts
 			"openFiles": [
 				"README.md"
 			]
 		},
+		// Customizations for Visual Studio Code settings and extensions
 		"vscode": {
-			"settings": {},
+			// Settings applied to VS Code
+			"settings": {
+				// Path to the conda executable
+				"python.condaPath": "/opt/conda/bin/conda",
+				// Path to the Python interpreter
+				"python.pythonPath": "/opt/conda/envs/myenv/bin/python"
+			},
+			// Extensions to be installed in the dev container
 			"extensions": [
-				"ms-python.python",
-				"ms-python.vscode-pylance"
+				"ms-python.python", // Python extension for Visual Studio Code
+				"ms-python.vscode-pylance", // Pylance extension for Python IntelliSense
+				"Equinusocio.vsc-material-theme-icons" // Material Theme Icons
 			]
 		}
 	},
@@ -21,25 +33,26 @@
 		8501
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// Install app dependencies.
-	"postCreateCommand": "pip3 install --user -r requirements.txt",
+	// Create a conda environment and install app dependencies.
+	"postCreateCommand": "conda create --name myenv python=3.11 && conda activate myenv && pip install -r requirements.txt",
 	// Use 'postAttachCommand' to run commands after a tool has attached to the container.
 	// Start the app.
-	"postAttachCommand": {
-		"server": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
-	},
+	// "portsAttributes" configures behavior for specific ports within the dev container
 	"portsAttributes": {
 		"8501": {
-			"label": "Application",
-			"onAutoForward": "openPreview"
+			"label": "Application", // This label helps identify the purpose of the port in the UI
+			"onAutoForward": "openPreview" // Automatically opens a preview when this port is forwarded
 		}
 	},
-	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	// Specifies the default user for the container
 	"remoteUser": "vscode",
+	// Lists features to be installed in the dev container
 	"features": {
-		// Optional features for development - increase container boot time!
-		// "ghcr.io/devcontainers-contrib/features/coverage-py:2": {},
-		// "git": "latest",
-		// "github-cli": "latest"
+		// Adds Python code coverage feature
+		"ghcr.io/devcontainers-contrib/features/coverage-py:2": {},
+		// Installs the latest version of Git
+		"git": "latest",
+		// Installs the latest version of GitHub CLI
+		"github-cli": "latest"
 	}
 }
