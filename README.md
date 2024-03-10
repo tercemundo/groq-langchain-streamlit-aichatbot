@@ -1,7 +1,16 @@
 # Groq - Langchain - Streamlit AI Chatbot APP
-I am not sponsored by Github. Groq, Langchain or Streamlist.  I just love their incredible products - Gregory Kennedy
+I am not sponsored by Github. Groq, Langchain or Streamlist. I just love their incredible products - Gregory Kennedy
+
+## March 2024 Update! "One-Click Installation and Set Up of Groq API, Langchain and Streamlit on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models notably the Mixtral-8x7B-32768 MOE (Mixture of Experts) model  or the LLama2-70b-4096 model by Meta. 
+
+I tweaked the original code (worked perfectly locally) that I forked from Definitive AI https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  Definitive AI https://www.definitive.io/ was recently aquired (March 2024) by Groq to run Groq cloud https://wow.groq.com/news_press/groq-acquires-definitive-intelligence-to-launch-groqcloud/.
+
+For the apps code to run on Github Codespaces I created two new folders and two new files.  
+
+One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.
 
 ## About Groq
+![groqcloud_darkmode](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/e2b2b6ba-1583-41d2-93a0-0dfd1d19b6d6)
 
 Groq® is a generative AI solutions company and the creator of the LPU™ Inference Engine, the fastest language processing accelerator on the market. It is architected from the ground up to achieve low latency, energy-efficient, and repeatable inference performance at 10x scale. Customers rely on the LPU Inference Engine as an end-to-end solution for running Large Language Models (LLMs) and other generative AI applications at 10x the speed. The LPU Inference Engine is available via the GroqCloud, an API that enables customers to purchase Tokens-as-a-Service for experimentation and production-ready applications. Jonathan Ross, inventor of the Google Tensor Processing Unit (TPU), founded Groq to preserve human agency while building the AI economy
 
@@ -24,16 +33,7 @@ https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned
 - https://www.langchain.com/
 
 ## Streamlit
-- https://streamlit.io/
-
-
-## March 2024 Update! "One-Click Installation and Set Up of Groq API, Langchain and Streamlit on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models notably the Mixtral-8x7B-32768 MOE (Mixture of Experts) model  or the LLama2-70b-4096 model by Meta. 
-
-I tweaked the original code (worked perfectly locally) that I forked from Definitive AI https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  Definitive AI https://www.definitive.io/ was recently aquired (March 2024) by Groq to run Groq cloud https://wow.groq.com/news_press/groq-acquires-definitive-intelligence-to-launch-groqcloud/.
-
-For the apps code to run on Github Codespaces I created two new folders and two new files.  
-
-One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file.  
+- https://streamlit.io/  
 
 ## Here are the beginner friendly steps for you to get up and running for free in the cloud. 
 
