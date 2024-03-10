@@ -7,7 +7,7 @@ I wrote and added additional code to the code that I forked from Definitive AI h
 
 ![docker](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/7d8b27bb-feb9-4514-af5e-e027733de7b6)
 
-I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker container image that setsup and installs python 3.11, the VS Code extensions, the latest version of GIT and the Github Cli, all of the required app dependency packages, and most importantly automatically creates and activates a Conda virtual environment, which creates a secure virtual environment and ensures that you will not have issues with package or version conflicts. 
+I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker image that sets up and installs python 3.11, VS Code editor extensions, the latest versions of GIT and the Github Cli, all of the required app dependency packages, and most importantly automatically creates and activates a Conda virtual environment, which creates a secure virtual environment and ensures that you will not have issues with package or version conflicts. 
 
 ![Streamlit](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/14bdb8ef-905b-41f4-808b-bda0aea78900)
 
