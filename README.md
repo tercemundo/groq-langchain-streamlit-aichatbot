@@ -3,9 +3,19 @@ I am not sponsored by Github. Groq, Langchain or Streamlit. I just love their in
 
 ## March 2024 Update! "Easy Installation and Set Up of Groq API, Langchain and Streamlit App on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models notably the Mixtral-8x7B-32768 MOE (Mixture of Experts) model  or the LLama2-70b-4096 model by Meta. 
 
-I wrote and added additional code to the code that I forked from Definitive AI https://github.com/definitive-io/ (that worked perfectly locally) in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces, and to automate some processes. I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker container image that setsup and installs python 3.11, the VS Code extensions, the latest version of GIT and the Github Cli, all of the required app dependency packages, and most imporatntly automatically creates and activates a Conda virtual environment. The Streamlit config.toml allows the Streamlit App to run in a cloud based server by disabling CORS to allow requests from any origin and disabling XSRF protection for simplicity in development environments.  Lastly I added comments to each line of code which clearly explains what each line of code is doing which is really useful for creating documentation and for helping beginners to understand more clearly.  
+I wrote and added additional code to the code that I forked from Definitive AI https://github.com/definitive-io/ (that worked perfectly locally) in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces, and to automate some processes. 
 
-Definitive AI https://www.definitive.io/ was recently aquired (March 2024) by Groq to run Groq cloud https://wow.groq.com/news_press/groq-acquires-definitive-intelligence-to-launch-groqcloud/.
+I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker container image that setsup and installs python 3.11, the VS Code extensions, the latest version of GIT and the Github Cli, all of the required app dependency packages, and most importantly automatically creates and activates a Conda virtual environment, which creates a secure virtual environment and ensures that you will not have issues with package or version conflicts. 
+
+![docker](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/7d8b27bb-feb9-4514-af5e-e027733de7b6)
+
+The Streamlit config.toml allows the Streamlit App to run in a cloud based server by disabling CORS to allow requests from any origin and disabling XSRF protection for simplicity in development environments.  Lastly I added comments to each line of code which clearly explains what each line of code is doing which is really useful for creating documentation and for helping beginners to understand more clearly.  
+
+![Streamlit](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/14bdb8ef-905b-41f4-808b-bda0aea78900)
+
+Langchain. We use Langchain for Importing the ConversationChain for managing chat conversations, the ConversationBufferWindowMemory for conversation memory management, the ChatGroq for Groq chat functionality and lastly the PromptTemplate for managing chat prompts.
+
+![Langchain Ecosystem Photo Credit Cobusgreyling](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/de41769a-1998-4b63-a996-d303f3f30fca)
 
 ## About Groq
 ![groqcloud_darkmode](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/e2b2b6ba-1583-41d2-93a0-0dfd1d19b6d6)
@@ -15,6 +25,8 @@ Groq® is a generative AI solutions company and the creator of the LPU™ Infere
 - https://groq.com/
 
 - https://console.groq.com/login - Get Your Free Groq API Key Here
+
+Definitive AI https://www.definitive.io/ was recently aquired (March 2024) by Groq to run Groq cloud https://wow.groq.com/news_press/groq-acquires-definitive-intelligence-to-launch-groqcloud/.
 
 - https://wow.groq.com/groq-labs/
 
