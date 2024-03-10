@@ -7,7 +7,7 @@ I tweaked the original code (worked perfectly locally) that I forked from Defini
 
 For the apps code to run properly on Github Codespaces I created two new folders and two new files.  
 
-One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker container image that setsup and installs python 3.11, the VS Code extensions, the latest version of GIT and the Github Cli, all of the required app dependency packages, and most imporatntly automatically creates and activates a Conda virtual environment. 
+One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker container image that setsup and installs python 3.11, the VS Code extensions, the latest version of GIT and the Github Cli, all of the required app dependency packages, and most imporatntly automatically creates and activates a Conda virtual environment. The Streamlit config.toml allows the Streamlit App to run in a cloud based server by disabling CORS to allow requests from any origin and disabling XSRF protection for simplicity in development environments.
 
 ## About Groq
 ![groqcloud_darkmode](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/e2b2b6ba-1583-41d2-93a0-0dfd1d19b6d6)
