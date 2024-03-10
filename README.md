@@ -3,13 +3,13 @@ I am not sponsored by Github. Groq, Langchain or Streamlist. I just love their i
 
 ## March 2024 Update! "Easy Installation and Set Up of Groq API, Langchain and Streamlit App on Github Codespaces".  You will be able to Switch between and try out two of the best Open-Source AI models notably the Mixtral-8x7B-32768 MOE (Mixture of Experts) model  or the LLama2-70b-4096 model by Meta. 
 
-I tweaked the original code (worked perfectly locally) that I forked from Definitive AI https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  
-
-Definitive AI https://www.definitive.io/ was recently aquired (March 2024) by Groq to run Groq cloud https://wow.groq.com/news_press/groq-acquires-definitive-intelligence-to-launch-groqcloud/.
-
 For the apps code to run properly on Github Codespaces I created two new folders and two new files.  
 
 One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker container image that setsup and installs python 3.11, the VS Code extensions, the latest version of GIT and the Github Cli, all of the required app dependency packages, and most imporatntly automatically creates and activates a Conda virtual environment. The Streamlit config.toml allows the Streamlit App to run in a cloud based server by disabling CORS to allow requests from any origin and disabling XSRF protection for simplicity in development environments.
+
+I tweaked the original code (worked perfectly locally) that I forked from Definitive AI https://github.com/definitive-io/ in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces.  
+
+Definitive AI https://www.definitive.io/ was recently aquired (March 2024) by Groq to run Groq cloud https://wow.groq.com/news_press/groq-acquires-definitive-intelligence-to-launch-groqcloud/.
 
 ## About Groq
 ![groqcloud_darkmode](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/e2b2b6ba-1583-41d2-93a0-0dfd1d19b6d6)
