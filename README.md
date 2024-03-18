@@ -17,6 +17,18 @@ The Streamlit config.toml allows the Streamlit App to run in a cloud based serve
 
 Langchain. We use Langchain for Importing the ConversationChain for managing chat conversations, the ConversationBufferWindowMemory for conversation memory management, the ChatGroq for Groq chat functionality and lastly the PromptTemplate for managing chat prompts.
 
+# Groq-LangChain-Streamlit AI Chatbot
+
+This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
+
+## Features
+
+- **Conversational Interface**: The application provides a conversational interface where users can ask questions or make statements, and the chatbot responds accordingly.
+
+- **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
+
+- **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
+
 ## About Groq
 ![groqcloud_darkmode](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/e2b2b6ba-1583-41d2-93a0-0dfd1d19b6d6)
 
@@ -84,15 +96,3 @@ https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned
 - NOTE THE API KEY ABOVE WILL NOT WORK FOR YOU AS I HAVE REVOKED IT.  NEVER REVEAL YOUR API KEY TO ANYONE!
     
 - Click on the small browsers windows FULL SCRENN ICON, which wull open a full browser window and you are ready to begin using Groq, Langchain and Streamlit!  
-
-# Groq-LangChain-Streamlit AI Chatbot
-
-This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
-
-## Features
-
-- **Conversational Interface**: The application provides a conversational interface where users can ask questions or make statements, and the chatbot responds accordingly.
-
-- **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
-
-- **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
