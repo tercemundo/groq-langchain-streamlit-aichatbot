@@ -5,18 +5,6 @@ I am not sponsored by Github. Groq, Langchain or Streamlit. I just love their in
 
 I wrote and added additional code to the code that I forked from Definitive AI https://github.com/definitive-io/ (that worked perfectly locally) in order to run Groq and the Streamlit App front end on Github CodeSpaces https://github.com/codespaces, and to automate some processes. 
 
-![docker](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/7d8b27bb-feb9-4514-af5e-e027733de7b6)
-
-I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker image that sets up and installs python 3.11, VS Code editor extensions, the latest versions of GIT and the Github Cli, all of the required app dependency packages, and most importantly automatically creates and activates a Conda virtual environment, which creates a secure virtual environment and ensures that you will not have issues with package or version conflicts. 
-
-![Streamlit](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/14bdb8ef-905b-41f4-808b-bda0aea78900)
-
-The Streamlit config.toml allows the Streamlit App to run in a cloud based server by disabling CORS to allow requests from any origin and disabling XSRF protection for simplicity in development environments.  Lastly I added comments to each line of code which clearly explains what each line of code is doing which is really useful for creating documentation and for helping beginners to understand more clearly.  
-
-![Langchain Ecosystem Photo Credit Cobusgreyling](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/de41769a-1998-4b63-a996-d303f3f30fca)
-
-Langchain. We use Langchain for Importing the ConversationChain for managing chat conversations, the ConversationBufferWindowMemory for conversation memory management, the ChatGroq for Groq chat functionality and lastly the PromptTemplate for managing chat prompts.
-
 # Groq-LangChain-Streamlit AI Chatbot
 
 This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
@@ -28,6 +16,18 @@ This repository contains a Streamlit application that allows users to interact w
 - **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
 
 - **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
+
+![docker](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/7d8b27bb-feb9-4514-af5e-e027733de7b6)
+
+I created two new folders and two new files.  One folder is named .devcontainer and contains a devcontainer.json file and the other folder is named .streamlit and contains a config.toml file. The devcontainer.json file automates building a Docker image that sets up and installs python 3.11, VS Code editor extensions, the latest versions of GIT and the Github Cli, all of the required app dependency packages, and most importantly automatically creates and activates a Conda virtual environment, which creates a secure virtual environment and ensures that you will not have issues with package or version conflicts. 
+
+![Streamlit](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/14bdb8ef-905b-41f4-808b-bda0aea78900)
+
+The Streamlit config.toml allows the Streamlit App to run in a cloud based server by disabling CORS to allow requests from any origin and disabling XSRF protection for simplicity in development environments.  Lastly I added comments to each line of code which clearly explains what each line of code is doing which is really useful for creating documentation and for helping beginners to understand more clearly.  
+
+![Langchain Ecosystem Photo Credit Cobusgreyling](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/de41769a-1998-4b63-a996-d303f3f30fca)
+
+Langchain. We use Langchain for Importing the ConversationChain for managing chat conversations, the ConversationBufferWindowMemory for conversation memory management, the ChatGroq for Groq chat functionality and lastly the PromptTemplate for managing chat prompts.
 
 ## About Groq
 ![groqcloud_darkmode](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/e2b2b6ba-1583-41d2-93a0-0dfd1d19b6d6)
