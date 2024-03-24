@@ -17,7 +17,8 @@ This repository contains a Streamlit application that allows users to interact w
 
 - **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
 
-![Langchain Ecosystem Photo Credit Cobusgreyling](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/de41769a-1998-4b63-a996-d303f3f30fca)
+![Langchain Ecosystem Photo Credit Cobusgreyling [updated langchain ecosystem](https://github.com/themindfuldude/groq-langchain-streamlit-aichatbot/assets/130063458/6fb3e530-2cc9-47ea-926e-af8162ebfe51)
+
 
 Langchain. We use Langchain for Importing the ConversationChain for managing chat conversations, the ConversationBufferWindowMemory for conversation memory management, the ChatGroq for Groq chat functionality and lastly the PromptTemplate for managing chat prompts.
 
