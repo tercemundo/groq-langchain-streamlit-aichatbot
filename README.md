@@ -1,4 +1,4 @@
-# Groq - Streamlit - Langchain - Langsmith - AI Assistant - Dataset Creation # NEW UPDATED APP COMING BY JULY 17
+# Groq - Streamlit - Langchain - Langsmith - AI Assistant - Dataset Creation # NEW UPDATED APP COMING BY Aug 1,2024
 
 
 # Groq-LangChain-Streamlit AI Chatbot
