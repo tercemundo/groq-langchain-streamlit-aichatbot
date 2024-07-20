@@ -1,6 +1,3 @@
-# Groq - Streamlit - Langchain - Langsmith - AI Assistant - Dataset Creation # NEW UPDATED APP COMING BY Aug 1,2024
-
-
 # Groq-LangChain-Streamlit AI Chatbot
 
 This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
